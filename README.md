@@ -35,6 +35,7 @@ A lightweight tool to upload images directly from your Windows clipboard to Pape
    $ApiToken     = "your_api_token_here"
    ```
 3. **Run the Script**: Double-click `PaperlessClipboard.ahk` to load the hotkey listener.
+Optional: Right Click and select "Compile Script(GUI)" to make a .exe file which you can pin to Start Menu/Taskbar. Please be mindful not to delete the original .ahk script you used to compile the script as any changes to the AHK script need to be done in that and then it needs to be recompiled into the .exe for use.
 4. **Trigger Upload**: Copy any image to your clipboard and press `Ctrl + Shift + P`. Enter your metadata and hit Upload!
 
 ---
